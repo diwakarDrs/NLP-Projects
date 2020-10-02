@@ -1,3 +1,1 @@
-#NLP Projects
-
-Natural
+![](readme_resource/result.png)
