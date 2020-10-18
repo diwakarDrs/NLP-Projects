@@ -18,10 +18,10 @@
 
 ### **Introduction**
 
-- This project is to create a tool to predict sentiment of the customer from the analysing reviews they have posted in the comment box.
+- This project is to create a tool to predict **sentiment of the customer** from the analysing reviews they have posted in the comment box.
 
-- Natural language processing and machine learning is applied to extract actionable insights from the customer reviews about their experiences.
-- If restaurant owners can gauge user sentiment about their restaurant, areas where their business is lacking, which dishes are doing well and what users are saying about their competitors - they can take appropriate steps to improve their business.
+- **Natural language processing** and **machine learning** is applied to extract actionable insights from the customer reviews about their experiences.
+- If restaurant owners can gauge user sentiment about their restaurant, areas where their business is lacking, which dishes are doing well and what users are saying about their competitors - they can take **appropriate steps** to improve their business.
 
 
 ## Demo
@@ -50,7 +50,7 @@ The high-level sequence involved in processing is as follows:
 
 ### **Data**
 
-Dataset will be a collection of 1000 reviews of a restaurant downloaded from kaggle. We’ll use NLP to predict whether a review is positive or negative.
+Dataset will be a collection of **1000 reviews** of a restaurant downloaded from kaggle. We’ll use NLP to predict whether a review is positive or negative.
 
 It includes the data
 
@@ -91,10 +91,10 @@ For the purpose of project, we define sentiment to be &quot;a personal positive 
 
 **Removal of Stop Words**
 - Stop words are the words which are commonly used. For example, we don't need words such as 'is','the','and','a’in our text since they do not help in determining whether the review is good or bad. 
-- Next, *Stemming* process which reduces the words to it's root word. It simply removes suffixes/prefixes.
+- Next, **Stemming** process which reduces the words to it's root word. It simply removes suffixes/prefixes.
 
-**Creating a 'Bag of Words’**
-- Next, we apply vectorization to convert the reviews into a numerical format for weightage of the word.
+**Creating a 'Bag of Words'**
+- Next, we apply **vectorization** to convert the reviews into a numerical format for weightage of the word.
 - We create a sparse matrix containing individual reviews as rows and each word of the reviews as columns. We call this the Bag of Words. Our text is now ready for training.
 
 ## Training and classification
@@ -111,7 +111,7 @@ For the purpose of project, we define sentiment to be &quot;a personal positive 
 
 ## **Results**
 
-The **MultinomialNB** have higher accuracy than the other approaches on the test and validation sets with the Precision score of 76% and Recall score of 74%.
+The **MultinomialNB** have higher accuracy than the other approaches on the test and validation sets with the **Precision score** of 76% and **Recall score** of 74%.
 
 Although the accuracy may seem to be low, it is pretty good for the input of 1000 reviews. With an increase in the number of reviews, the accuracy of the model will increase.
 
