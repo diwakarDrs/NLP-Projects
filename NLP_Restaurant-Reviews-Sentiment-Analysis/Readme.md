@@ -78,7 +78,7 @@ python app.py
 ```
 4. Go to ` http://127.0.0.1:5000/` and to view the application
 
-**Defining Sentiment**
+### **Defining Sentiment**
 
 For the purpose of project, we define sentiment to be &quot;a personal positive or negative feeling.&quot; Here are some examples:
 
@@ -101,17 +101,17 @@ For the purpose of project, we define sentiment to be &quot;a personal positive 
 
 - The data is split into two parts, train and test with 75% in train and 25% in test. 
 - The classification models we used are
-**MultinomialNB** : Accuracy = 73.6%, 
-**MLPClassifier ** : Accuracy = 69.6%, 
-**SVC ** : Accuracy = 69.6%, 
-**GaussianNB ** : Accuracy = 71.2%, 
-**LogisticRegression ** : Accuracy = 70%, 
-**DecisionTreeClassifier ** : Accuracy = 64%, 
-**RandomForestClassifier ** : Accuracy = 68%. 
+ **MultinomialNB** : Accuracy = 73.6%, 
+ **MLPClassifier** : Accuracy = 69.6%, 
+ **SVC** : Accuracy = 69.6%, 
+ **GaussianNB** : Accuracy = 71.2%, 
+ **LogisticRegression** : Accuracy = 70%, 
+ **DecisionTreeClassifier** : Accuracy = 64%, 
+ **RandomForestClassifier** : Accuracy = 68%. 
 
 ## **Results**
 
-The MultinomialNB have higher accuracy than the other approaches on the test and validation sets with the Precision score of 76% and Recall score of 74%
+The **MultinomialNB** have higher accuracy than the other approaches on the test and validation sets with the Precision score of 76% and Recall score of 74%.
 
 Although the accuracy may seem to be low, it is pretty good for the input of 1000 reviews. With an increase in the number of reviews, the accuracy of the model will increase.
 
