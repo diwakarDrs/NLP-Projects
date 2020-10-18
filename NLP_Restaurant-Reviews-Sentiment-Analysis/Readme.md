@@ -25,7 +25,7 @@
 
 
 ## Demo
-![](readme_resource/result.png)
+
 
 <p align='center'>
  
@@ -101,13 +101,13 @@ For the purpose of project, we define sentiment to be &quot;a personal positive 
 
 - The data is split into two parts, train and test with 75% in train and 25% in test. 
 - The classification models we used are
- **MultinomialNB** : Accuracy = 73.6%, 
- **MLPClassifier** : Accuracy = 69.6%, 
- **SVC** : Accuracy = 69.6%, 
- **GaussianNB** : Accuracy = 71.2%, 
- **LogisticRegression** : Accuracy = 70%, 
- **DecisionTreeClassifier** : Accuracy = 64%, 
- **RandomForestClassifier** : Accuracy = 68%. 
+  * **MultinomialNB** : Accuracy = 73.6%, 
+  * **MLPClassifier** : Accuracy = 69.6%, 
+  * **SVC** : Accuracy = 69.6%, 
+  * **GaussianNB** : Accuracy = 71.2%, 
+  * **LogisticRegression** : Accuracy = 70%, 
+  * **DecisionTreeClassifier** : Accuracy = 64%, 
+  * **RandomForestClassifier** : Accuracy = 68%. 
 
 ## **Results**
 
