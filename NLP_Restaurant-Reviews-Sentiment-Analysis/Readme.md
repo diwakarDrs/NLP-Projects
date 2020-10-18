@@ -37,15 +37,15 @@
 
 The high-level sequence involved in processing is as follows:
 
-1) Raw data collection from kaggle
+1) Raw data collection from kaggle.
 
-2) Sentiment labeling
+2) Sentiment labeling.
 
-3) stop words, stemming, Bag of Words, vectorization
+3) stop words, stemming, Bag of Words, vectorization.
 
-4)	Transform into train/test sets for classifier
+4)	Transform into train/test sets for classifier.
 
-5) Check with metrics of different Alogrithm  and select model with least error
+5) Check with metrics of different Algorithm  and selected the model with least error.
 
 
 ### **Data**
@@ -60,7 +60,7 @@ It includes the data
 ### **Dependencies**
 
 **Python Version:** 3.7  
-**Packages:** pandas, numpy, matplotlib, seaborn, NLTK
+**Packages:** pandas, numpy, matplotlib, NLTK
 
 
 ## Local Installation
